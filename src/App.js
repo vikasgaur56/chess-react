@@ -1,6 +1,6 @@
 
 import './App.css';
-import ChessBoard from "./Component Board/Chessboard/ChessBoard.tsx";
+import ChessBoard from "./Component Board/Chessboard/ChessBoard.jsx";
 
 function App() {
   return (
