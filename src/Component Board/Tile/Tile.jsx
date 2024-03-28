@@ -1,18 +1,27 @@
 import './Tile.css';
 
-function Tile({ number, image }) {
+function Tile({ number, image ,clickConsole}) 
+
+const clickConsole = (x, y) => {
+  console.log("Clicked at coordinates:", x, y);
+}
+
+{
   if (number % 2 == 0) {
     return (
-      <div className='tile black-tile'>
+      <div onClick={clickConsole} className='tile black-tile'>
         <img id='chessImg' src={image} />
       </div>
     );
-  } else {
+  } 
+  else {
     return (
-      <div className='tile white-tile'>
+      <div  className='tile white-tile'>
         <img id='chessImg' src={image} />
       </div>
     );
+
+
   }
 }
 export default Tile;
