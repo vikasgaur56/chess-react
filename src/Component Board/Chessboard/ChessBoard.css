@@ -6,3 +6,7 @@ display: grid;
 grid-template-columns:repeat(8, 87.5px) ;
 grid-template-rows:repeat(8,75px) ;
 }
+
+.colorChange{
+	background-color: grey;
+}
