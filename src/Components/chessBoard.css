@@ -1,0 +1,23 @@
+.black-tile{
+	height: 75px;
+	width: 85.7px;
+	background-color:#779556;
+}
+.white-tile{
+	height: 75px;
+	width: 85.7px;
+	background-color:white;
+}
+.board{
+	height: 600px;
+	width: 700px;
+	display:grid;
+	grid-template-columns: repeat(8, 87.5px);
+	grid-template-rows:repeat(8, 75px) ;
+	margin: 0 auto;
+	
+}
+.path{
+	background-color: aqua;
+	border: 2px solid black;
+}
